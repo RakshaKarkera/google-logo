@@ -1,0 +1,19 @@
+body{
+    overflow: hidden;
+    }
+    root{
+        --orange:#EA4335;
+        --blue:#4285F4;
+        --green:#34A853;
+        --yellow:#FBBC05;
+    }
+    .google{
+        position: relative;
+        width: 300px;
+        height:300px;
+        border-top:100px solid var(--orange);
+        border-right:100px solid var(--blue);
+        border-bottom:100px solid var(--green);
+        border-left:100px solid var(--yellow);
+    }
+    
